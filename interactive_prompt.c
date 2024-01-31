@@ -29,8 +29,10 @@ void add_history(char* unused) {}
 int main(int argc, char** argv) {
 
 	// print version and exit information
-	puts("Another Damn Prompt Version 0.0.0.1");
-	puts("Press Ctrl+c to Exit\n");
+	puts("Another Damn Prompt - Version 0.0.0.3");
+	puts("\n");
+	puts("YOU CAN NEVER LEAVE!");
+	puts("jk just press Ctrl+c to EXIT\n");
 	
 	// in a never ending loop
 	while (1) {
@@ -43,7 +45,7 @@ int main(int argc, char** argv) {
 		
 		// echo input back to user
 		printf("hmmmm, so what you're saying is %s?\n", input);
-		
+		puts("very interesting...");
 		// free retrieved input
 		free(input);
 	}
