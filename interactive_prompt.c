@@ -6,14 +6,14 @@ static char input[2048];
 int main(int argc, char** argv) {
 
 	// print version and exit information
-	puts("Lispy Version 0.0.0.1");
+	puts("Another Damn Prompt Version 0.0.0.1");
 	puts("Press Ctrl+c to Exit\n");
 	
 	// in a never ending loop
 	while (1) {
 	
 		// output prompt
-		fputs("lispy> ", stdout);
+		fputs("ADP> ", stdout);
 		
 		// read a line of user input of maximun size 2048
 		fgets(input, 2048, stdin);
